@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sleeper Bus Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Sleeper Bus Booking System</h1>
+<div class="card" id="search">
+    <h2>Search Bus</h2>
+
+    <input type="text" id="from" placeholder="From" required>
+    <input type="text" id="to" placeholder="To" required>
+    <input type="date" id="date" required>
+
+    <p id="searchError" class="error"></p>
+
+    <button type="button" onclick="validateAndSearch()">Search</button>
+</div>
+
+<div class="card hidden" id="seats">
+    <h2>Select Seats</h2>
+    <div id="seatContainer"></div>
+    <button onclick="bookSeats()">Continue</button>
+</div>
+
+<div class="card hidden" id="meal">
+    <h2>Meal Selection</h2>
+    <select id="mealType">
+        <option value="Veg">Veg</option>
+        <option value="Non-Veg">Non-Veg</option>
+        <option value="Jain">Jain</option>
+    </select>
+    <input type="number" id="mealQty" value="1">
+    <button onclick="bookMeal()">Next</button>
+</div>
+
+<div class="card hidden" id="passenger">
+    <h2>Passenger Details</h2>
+    <input id="name" placeholder="Name">
+    <input id="phone" placeholder="Phone">
+    <button onclick="confirmBooking()">Confirm</button>
+</div>
+
+<div class="card hidden" id="confirm">
+    <h2>Booking Confirmed</h2>
+    <p id="finalId"></p>
+    <button onclick="showCancel()">Cancel Booking</button>
+</div>
+
+<div class="card hidden" id="cancel">
+    <h2>Cancel Booking</h2>
+    <input id="cancelId" placeholder="Booking ID">
+    <button onclick="cancelBooking()">Cancel</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

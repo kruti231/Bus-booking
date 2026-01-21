@@ -1,0 +1,13 @@
+AI/ML Software Engineer Assignment Sleeper Bus Ticket Booking System (Ahmedabad → Mumbai) Role: AI/ML Software Engineer Project: Sleeper Bus Ticket Booking System (Ahmedabad to Mumbai) 
+
+1. Project Overview Your task is to design and partially develop a web-based flow for a sleeper bus booking service operating between Ahmedabad and Mumbai. A unique requirement for this system is the integration of a meal booking service as part of the ticket checkout process. System Assumptions We have only one bus in the system. The bus may have multiple intermediate stations between Ahmedabad and Mumbai. 
+
+2. Detailed Requirements 
+  Part 1: Product & Quality Assurance (Documentation) Feature Definition Define at least 5–7 core features of the Web Flow. Test Cases List critical test cases including: Functional test cases Edge cases UI/UX validation cases to ensure a smooth and bug-free booking experience. 
+  Part 2: UI/UX Design Create and submit a Design Prototype (Figma / Adobe XD / any tool). Share the public prototype link in README.md. 
+  Part 3: Backend Development (API) Write and push the source code for backend APIs. Preferred Languages: Node.js or Python (any framework). Payment gateway integration is not required. Mandatory Endpoints List of seats Seat booking Meal booking Cancel booking Any additional endpoints you find relevant (e.g., stations list, booking history, availability check)      
+  Part 4: Data Science & Prediction (Mock Logic) Implement a Confirmation Booking Prediction feature based on historical data (percentage-wise). This can be a mock or simulated model. Documentation Must Include Prediction approach Model used (or proposed model) Mock training dataset Final prediction output in percentage 
+  
+3. Submission Guidelines Provide a single public GitHub repository containing: 1. README.md (Main) Include: Defined Features Test Cases Prototype Link 2. Source Code Complete backend API implementation. 3. PREDICTION_APPROACH.md Include: Prediction logic Model choice Mock dataset Training methodology Booking probability output (%) Note: Ensure all links are set to Public or Anyone with the link can view. 4. Submit google form (Most important) Submit this google form after pushing all the changes to github Submission Form 
+
+4. Evaluation Criteria UI/UX Sense: Simplicity and clarity of the booking flow Code Quality: Clean architecture, modular design, meaningful comments Analytical Thinking: Sound approach for prediction model and data reasoning
